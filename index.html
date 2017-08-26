@@ -19,11 +19,11 @@
   </header>
  
  <!-- main content -->
-  <div id="content">
+  <div id="main">
   
  <!-- hero image, 'our mission' -->
-    <div id="hero">
-      <div id="mission">
+    <div id="mission">
+      <div id="content">
         <h2>Our Mission</h2>
         <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
       </div>
@@ -31,27 +31,30 @@
 
   <!-- tea of the month -->
     <div id="featured">
-      <h2>Tea of the Month</h2>
-      <h4>What's Steeping at The Tea Cozy?</h4>
+      <div class="heading">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea Cozy?</h4>
+      </div>
       <div class="teaflex">
         <div class="tea">
-          <img src="" alt="">
+          <img src="./assets/images/img-berryblitz.jpg" alt="berry tea">
           <p>Fall Berry Blitz Tea</p>
         </div>
         <div class="tea">
-          <img src="" alt="">
+          <img src="./assets/images/img-spiced-rum.jpg" alt="spiced rum">
           <p>Spiced Rum Tea</p>
         </div>
         <div class="tea">
-          <img src="" alt="">
+          <img src="./assets/images/img-donut.jpg" alt="donut">
           <p>Seasonal Donuts</p>
         </div>
         <div class="tea">
-          <img src="" alt="">
+          <img src="./assets/images/img-myrtle-ave.jpg" alt="Myrtle Ave tea">
           <p>Myrtle Ave Tea</p>
+          <!-- ^^^ the image in the design spec is a duplicate of the 3rd item, so I based it off of the example in Codecademy's main view of the sample page instead. Plus the file name matched the above text, also..  -->
         </div>
         <div class="tea">
-          <img src="" alt="">
+          <img src="./assets/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea">
           <p>Bedford Bizarre Tea</p>
         </div>
       </div>
@@ -59,29 +62,27 @@
 
   <!-- Locations -->
     <div id="locations">
-      <h2>Locations</h2>
+      <div class="heading">
+        <h2>Locations</h2>
+      </div>
       <div class="locflex">
         <div class="loc">
           <h3>Downtown</h3>
-          <span>384 West 4th St</span>
-          <span>Suite 108</span>
-          <span>Portland, Maine</span>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
         </div>
-      </div>
-      <div class="locflex">
         <div class="loc">
           <h3>East Bayside</h3>
-          <span>3433 Phisherman's Avenue</span>
-          <span>(Northwest Corner)</span>
-          <span>Portland, Maine</span>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
         </div>
-      </div>
-      <div class="locflex">
         <div class="loc">
           <h3>Oakdale</h3>
-          <span>515 Crescent Avenue</span>
-          <span>Second Floor</span>
-          <span>Portland, Maine</span>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
         </div>
       </div>
     </div> <!-- end locations -->
@@ -90,15 +91,12 @@
  
  <!-- footer -->
   <footer>
-    <div id="info">
-      <h2>The Tea Cozy</h2>
-      <h5>contact@theteacozy.com</h5>
-      <h5>917-555-8904</h5>  
-    </div>
-    <div id="copyright">
-      <p>copyright The Tea Cozy 2017</p>
-    </div>
+    <h2>The Tea Cozy</h2>
+    <h5>contact@theteacozy.com</h5>
+    <h5>917-555-8904</h5>  
   </footer>
-
+  <div id="copyright">
+    <p>copyright The Tea Cozy 2017</p>
+  </div>
 </body>
 </html>
